@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "0c822f3a-8a4b-4f1f-a4b6-8f97114099eb",
+		"_postman_id": "57b96a2a-e09c-4fc5-9815-5f3cfc7f4c01",
 		"name": "DIAL API tests",
 		"description": "Public API documentation of DIAL api's  \n  \n[DIAL API's](https://documenter.getpostman.com/view/4214340/UVsMv6Kd)\n\nHere we are writing all the different test cases for DIAL service.\n\nThe structure of the API test should be as below\n\n*   **{service name} tests**\n    *   **Postive** (folder)\n        *   {API name} (*folder*)\n            *   Different positive tests of the API\n        *   {API name} (*folder*)\n            *   Different positive tests of the API\n    *   **Negative** (folder)\n        *   {API name} (*folder*)\n            *   Different negative tests of the API\n        *   {API name} (*folder*)\n            *   Different positive tests of the API\n    *   **Scenarios**\n        *   Scenario 1 (*folder*)\n            *   {Sequence of API's part of the scenario}\n        *   Scenario 2 (*folder*)\n            *   {Sequence of API's part of the scenario}",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -2988,7 +2988,7 @@
 								"header": [
 									{
 										"key": "X-Channel-ID",
-										"value": "{{x_channel_id}}"
+										"value": "{{channel_id}}"
 									},
 									{
 										"key": "Content-Type",
